@@ -1,0 +1,5 @@
+###数据录入及初步整理
+> insurance<-read.csv("C:\\Users\\24374\\Desktop\\insurance.csv",header = T,sep = ",")
+> View(insurance)#查看数据
+> names(insurance)=c("age","sex","bmi","children","smoker","region","charges")
+> str(insurance)#查看数据结构类型
